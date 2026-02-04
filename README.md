@@ -45,7 +45,7 @@ Interface: eth0
 
 ## 📸 Demo
 
-![Hardware Setup](images/hardware_setup.jpg)
+![Hardware Setup](images/hardware_setup.png)
 *SAMA5D3 board with serial console and Ethernet connection*
 
 ![Boot Sequence](images/boot_sequence.png)
