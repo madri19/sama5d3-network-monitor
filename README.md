@@ -48,8 +48,14 @@ Interface: eth0
 ![Hardware Setup](images/hardware_setup.jpg)
 *SAMA5D3 board with serial console and Ethernet connection*
 
-![Demo Output](images/demo_output.png)
-*Network statistics served over TCP*
+![Boot Sequence](images/boot_sequence.png)
+*Linux kernel booting from SD card*
+
+![Server Running](images/server_running.png)
+*Network monitor running on the board*
+
+![Client Connection](images/client_output.png)
+*Connecting from Mac and viewing real-time network statistics*
 
 ## 🏗️ Building from Source
 
