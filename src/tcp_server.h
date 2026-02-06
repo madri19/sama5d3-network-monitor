@@ -1,3 +1,11 @@
+/*
+tcp_server.cpp/h
+Creates TCP socket
+Listens on port 8080
+When client connects, calls a handler function to get data
+Sends data to client, closes connection
+*/
+
 #ifndef TCP_SERVER_H
 #define TCP_SERVER_H
 
