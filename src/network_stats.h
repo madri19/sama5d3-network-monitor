@@ -20,13 +20,13 @@ struct InterfaceStats {
 class NetworkStats {
 public:
     NetworkStats();
-    bool update();
+    bool update(); // refresh stats from /proc
     std::map<std::string, InterfaceStats> getStats() const;
-    std::string formatStats() const;
+    std::string formatStats() const; // format as readable text
 
 private:
-    std::map<std::string, InterfaceStats> stats_;
-    bool parseNetDev();
+    std::map<std::string, InterfaceStats> stats_; // storage
+    bool parseNetDev(); // parse it
 };
 
 #endif
