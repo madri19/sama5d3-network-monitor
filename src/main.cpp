@@ -1,3 +1,10 @@
+/*
+main.cpp
+Creates NetworkStats and TCPServer objects
+Connects them with a lambda: "when client connects, get fresh stats and return them"
+Runs main loop accepting connections
+*/
+
 #include "network_stats.h"
 #include "tcp_server.h"
 #include <iostream>
