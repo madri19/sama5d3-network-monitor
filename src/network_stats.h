@@ -1,3 +1,9 @@
+/*network_stats.cpp/h
+Reads /proc/net/dev (kernel network statistics file)
+Parses it to extract RX/TX bytes and packets for each interface
+Stores in a map: interface_name → stats
+*/
+
 #ifndef NETWORK_STATS_H
 #define NETWORK_STATS_H
 
